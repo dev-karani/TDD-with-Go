@@ -2,6 +2,7 @@ package integers
 
 import (
 	"testing"
+	"fmt"
 )
 
 func TestAdder(t *testing.T) {
@@ -13,3 +14,8 @@ func TestAdder(t *testing.T) {
 	}
 }
 
+func ExampleAdd() {
+    sum := Add(1, 5)
+    fmt.Println(sum)
+    // Output: 6    gg
+}
